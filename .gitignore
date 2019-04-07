@@ -1,0 +1,5 @@
+node_modules
+build/win/carlo-plate-setup.iss
+build/executables/carlo-plate-*
+build/carlo-plate-setup.exe
+/carlo-plate.js

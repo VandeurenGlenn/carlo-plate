@@ -1,0 +1,15 @@
+<html>
+<script>
+  const run = async () => {
+    console.log(await hello());
+    document.body.innerHTML = await hello();
+  }
+</script>
+<script type="module">
+  import './index.js';
+</script>
+<body onload="run()">
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "carlo-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "carlo-plate.js",
+  "module": "src/carlo-plate.js",
+  "dependencies": {
+    "carlo": "^0.9.45"
+  },
+  "devDependencies": {
+    "packapp": "^0.2.5",
+    "rollup": "^1.9.0",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.2.1",
+    "rollup-plugin-terser": "^4.0.4",
+    "simple-inno-setup-script": "^1.0.5"
+  },
+  "scripts": {
+    "compile": "rollup -c",
+    "start": "node index.js",
+    "pack": "node build/pack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/carlo-plate.git"
+  },
+  "keywords": [
+    "carlo",
+    "boilerplate"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/carlo-plate/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/carlo-plate#readme"
+}
