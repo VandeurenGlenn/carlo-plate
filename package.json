@@ -5,7 +5,7 @@
   "main": "carlo-plate.js",
   "module": "src/carlo-plate.js",
   "dependencies": {
-    "carlo": "^0.9.45"
+    "carlo": "^0.9.46"
   },
   "devDependencies": {
     "packapp": "^0.2.5",
